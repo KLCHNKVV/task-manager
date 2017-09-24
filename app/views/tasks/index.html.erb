@@ -1,0 +1,22 @@
+<div class = "col-md-12">
+	<h1 id="task_title">My Task List</h1>
+ 	<br>
+	<%= link_to "Add new task", new_task_path, class: 'btn btn-primary' %>
+	<% @tasks.each do |task| %>
+		<%= render partial: 'task', object: task %>
+	<% end %>	
+
+	<style>
+	   hr {
+		    border: none; 
+		    background-color: #0f5fe0; 
+		    height: 1.5px; 
+	   		}
+  	</style>
+
+  	<hr>
+	<% @completed_tasks.each do |task| %>
+		<%= render partial: 'task', object: task %>
+	<% end %>
+</div>
+
