@@ -1,24 +1,11 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Deployed on Heroku web application: https://kda-task-manager.herokuapp.com/
+Login: KDA
+Password: 123
 
-Things you may want to cover:
+Application configure:
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+- Ruby v. 2.4.2
+- PostgreSQL 9.6
+- Rails v. 5.1.4
