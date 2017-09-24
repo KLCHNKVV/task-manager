@@ -1,8 +1,8 @@
 # README
 
 Deployed on Heroku web application: https://kda-task-manager.herokuapp.com/
-Login: KDA
-Password: 123
+  - Login: KDA
+  - Password: 123
 
 Application configure:
 
